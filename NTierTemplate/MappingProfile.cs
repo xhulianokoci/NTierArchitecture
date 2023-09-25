@@ -10,5 +10,8 @@ public class MappingProfile : Profile
     {
         //Authentication
         CreateMap<CreateUserDTO, ApplicationUser>();
+
+        //User
+        CreateMap<ApplicationUser, UserListDTO>().ReverseMap();
     }
 }

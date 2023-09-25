@@ -8,10 +8,14 @@
 
   <ItemGroup>
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
-    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.1.39" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.1.38" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.0.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Cryptography\Cryptography.csproj" />
     <ProjectReference Include="..\Repository.Contracts\Repository.Contracts.csproj" />
     <ProjectReference Include="..\Service.Contracts\Service.Contracts.csproj" />
     <ProjectReference Include="..\Shared\Shared.csproj" />

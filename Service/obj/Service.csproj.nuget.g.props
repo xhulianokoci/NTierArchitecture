@@ -13,4 +13,7 @@
     <SourceRoot Include="C:\Users\use\.nuget\packages\" />
     <SourceRoot Include="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\" />
   </ItemGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgNewtonsoft_Json Condition=" '$(PkgNewtonsoft_Json)' == '' ">C:\Users\use\.nuget\packages\newtonsoft.json\9.0.1</PkgNewtonsoft_Json>
+  </PropertyGroup>
 </Project>

@@ -113,3 +113,10 @@ C:\Users\use\source\repos\NTierTemplate\NTierTemplate\bin\Debug\net6.0\Shared.pd
 C:\Users\use\source\repos\NTierTemplate\NTierTemplate\bin\Debug\net6.0\NLog.dll
 C:\Users\use\source\repos\NTierTemplate\NTierTemplate\bin\Debug\net6.0\LoggerService.dll
 C:\Users\use\source\repos\NTierTemplate\NTierTemplate\bin\Debug\net6.0\LoggerService.pdb
+C:\Users\use\source\repos\NTierTemplate\NTierTemplate\bin\Debug\net6.0\Cryptography.dll
+C:\Users\use\source\repos\NTierTemplate\NTierTemplate\bin\Debug\net6.0\Cryptography.pdb
+C:\Users\use\source\repos\NTierTemplate\NTierTemplate\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\use\source\repos\NTierTemplate\NTierTemplate\bin\Debug\net6.0\runtimes\win7-x64\native\sni.dll
+C:\Users\use\source\repos\NTierTemplate\NTierTemplate\bin\Debug\net6.0\runtimes\win7-x86\native\sni.dll
+C:\Users\use\source\repos\NTierTemplate\NTierTemplate\bin\Debug\net6.0\runtimes\unix\lib\netstandard1.3\System.Data.SqlClient.dll
+C:\Users\use\source\repos\NTierTemplate\NTierTemplate\bin\Debug\net6.0\runtimes\win\lib\netstandard1.3\System.Data.SqlClient.dll

@@ -4,6 +4,64 @@
     "C:\\Users\\use\\source\\repos\\NTierTemplate\\Service\\Service.csproj": {}
   },
   "projects": {
+    "C:\\Users\\use\\source\\repos\\NTierTemplate\\Cryptography\\Cryptography.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\use\\source\\repos\\NTierTemplate\\Cryptography\\Cryptography.csproj",
+        "projectName": "Cryptography",
+        "projectPath": "C:\\Users\\use\\source\\repos\\NTierTemplate\\Cryptography\\Cryptography.csproj",
+        "packagesPath": "C:\\Users\\use\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\use\\source\\repos\\NTierTemplate\\Cryptography\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\use\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\use\\source\\repos\\NTierTemplate\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -43,10 +101,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.Data.SqlClient": {
-              "target": "Package",
-              "version": "[5.1.1, )"
-            },
             "Microsoft.Extensions.Identity.Stores": {
               "target": "Package",
               "version": "[7.0.11, )"
@@ -114,12 +168,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "Microsoft.Data.SqlClient": {
-              "target": "Package",
-              "version": "[5.1.1, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -185,12 +233,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "Microsoft.Data.SqlClient": {
-              "target": "Package",
-              "version": "[5.1.1, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -238,6 +280,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "C:\\Users\\use\\source\\repos\\NTierTemplate\\Cryptography\\Cryptography.csproj": {
+                "projectPath": "C:\\Users\\use\\source\\repos\\NTierTemplate\\Cryptography\\Cryptography.csproj"
+              },
               "C:\\Users\\use\\source\\repos\\NTierTemplate\\Repository.Contracts\\Repository.Contracts.csproj": {
                 "projectPath": "C:\\Users\\use\\source\\repos\\NTierTemplate\\Repository.Contracts\\Repository.Contracts.csproj"
               },
@@ -264,9 +309,21 @@
               "target": "Package",
               "version": "[12.0.1, )"
             },
-            "Microsoft.Data.SqlClient": {
+            "Microsoft.AspNetCore.Identity": {
               "target": "Package",
-              "version": "[5.1.1, )"
+              "version": "[2.1.39, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.1.38, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             }
           },
           "imports": [

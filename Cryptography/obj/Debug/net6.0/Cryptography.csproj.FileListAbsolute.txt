@@ -1,0 +1,11 @@
+C:\Users\use\source\repos\NTierTemplate\Cryptography\bin\Debug\net6.0\Cryptography.deps.json
+C:\Users\use\source\repos\NTierTemplate\Cryptography\bin\Debug\net6.0\Cryptography.dll
+C:\Users\use\source\repos\NTierTemplate\Cryptography\bin\Debug\net6.0\Cryptography.pdb
+C:\Users\use\source\repos\NTierTemplate\Cryptography\obj\Debug\net6.0\Cryptography.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\use\source\repos\NTierTemplate\Cryptography\obj\Debug\net6.0\Cryptography.AssemblyInfoInputs.cache
+C:\Users\use\source\repos\NTierTemplate\Cryptography\obj\Debug\net6.0\Cryptography.AssemblyInfo.cs
+C:\Users\use\source\repos\NTierTemplate\Cryptography\obj\Debug\net6.0\Cryptography.csproj.CoreCompileInputs.cache
+C:\Users\use\source\repos\NTierTemplate\Cryptography\obj\Debug\net6.0\Cryptography.dll
+C:\Users\use\source\repos\NTierTemplate\Cryptography\obj\Debug\net6.0\refint\Cryptography.dll
+C:\Users\use\source\repos\NTierTemplate\Cryptography\obj\Debug\net6.0\Cryptography.pdb
+C:\Users\use\source\repos\NTierTemplate\Cryptography\obj\Debug\net6.0\ref\Cryptography.dll

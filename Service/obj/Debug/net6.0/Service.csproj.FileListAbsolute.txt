@@ -19,3 +19,5 @@ C:\Users\use\source\repos\NTierTemplate\Service\obj\Debug\net6.0\Service.pdb
 C:\Users\use\source\repos\NTierTemplate\Service\obj\Debug\net6.0\ref\Service.dll
 C:\Users\use\source\repos\NTierTemplate\Service\bin\Debug\net6.0\Shared.dll
 C:\Users\use\source\repos\NTierTemplate\Service\bin\Debug\net6.0\Shared.pdb
+C:\Users\use\source\repos\NTierTemplate\Service\bin\Debug\net6.0\Cryptography.dll
+C:\Users\use\source\repos\NTierTemplate\Service\bin\Debug\net6.0\Cryptography.pdb

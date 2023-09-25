@@ -1,8 +1,11 @@
-﻿using Shared.DTO;
+﻿using Microsoft.AspNetCore.Identity;
+using Shared.DTO;
 
 namespace Service.Contracts;
 
 public interface IAuthenticationService
 {
-    Task<bool> SignUp(CreateUserDTO signUp);
+    Task<(IdentityResult, TokenDTO)> SignUp(CreateUserDTO signUp);
+    Task<TokenDTO> ValidateUserAndCreateToken(UserLoginDTO userLogin);
+    FirstTimeLoginDTO FirstTimeLoginResponse(UserLoginDTO userLogin);
 }

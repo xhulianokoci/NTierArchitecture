@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.7.34018.315
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NTierTemplate", "NTierTemplate\NTierTemplate.csproj", "{4F0BF439-B824-4FE4-9544-D12FE2DFE648}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EF14854A-3D32-454D-97A2-8CF7340AA009} = {EF14854A-3D32-454D-97A2-8CF7340AA009}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "Entities\Entities.csproj", "{B89E42E7-F03A-4C41-A841-2FEB7080F94A}"
 EndProject
@@ -17,9 +20,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service", "Service\Service.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service.Contracts", "Service.Contracts\Service.Contracts.csproj", "{08A9C535-4C44-424E-A4AC-F9FDACCB3B46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{8297D50A-08C7-457F-A800-8362922B1D30}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared", "Shared\Shared.csproj", "{8297D50A-08C7-457F-A800-8362922B1D30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggerService", "LoggerService\LoggerService.csproj", "{DC7C0F34-31FA-4C60-9BE7-41A3F724A4A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoggerService", "LoggerService\LoggerService.csproj", "{DC7C0F34-31FA-4C60-9BE7-41A3F724A4A4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cryptography", "Cryptography\Cryptography.csproj", "{EF14854A-3D32-454D-97A2-8CF7340AA009}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +68,10 @@ Global
 		{DC7C0F34-31FA-4C60-9BE7-41A3F724A4A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC7C0F34-31FA-4C60-9BE7-41A3F724A4A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC7C0F34-31FA-4C60-9BE7-41A3F724A4A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF14854A-3D32-454D-97A2-8CF7340AA009}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF14854A-3D32-454D-97A2-8CF7340AA009}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF14854A-3D32-454D-97A2-8CF7340AA009}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF14854A-3D32-454D-97A2-8CF7340AA009}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

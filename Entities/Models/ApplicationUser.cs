@@ -25,6 +25,7 @@ public class ApplicationUser : IdentityUser<int>
     public string? Occupation { get; set; }
     public string? Image { get; set; }
     public bool UserIsActive { get; set; }
+    public string? RefreshToken { get; set; }
     public DateTime RefreshTokenExpiryTime { get; set; }
     public string? TokenHash { get; set; }
     public DateTime? DateCreated { get; set; }

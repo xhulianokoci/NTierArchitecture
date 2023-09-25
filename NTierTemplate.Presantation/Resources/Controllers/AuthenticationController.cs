@@ -17,11 +17,21 @@ public class AuthenticationController : ControllerBase
         _service = service;
     }
 
+    [HttpPost("login")]
+    public async Task<IActionResult> Login([FromBody] UserLoginDTO userLogin)
+    {
+        var tokenDto = await _service.AuthenticationService.ValidateUserAndCreateToken(userLogin);
+        return Ok(tokenDto);
+    }
+
     [HttpPost("sign-up")]
     public async Task<IActionResult> SignUp([FromBody] CreateUserDTO signUp)
     {
-        var user = await _service.AuthenticationService.SignUp(signUp);
+        (IdentityResult result, TokenDTO tokenDto) = await _service.AuthenticationService.SignUp(signUp);
 
-        return Ok(user);
+        if (tokenDto != null)
+            return Ok(tokenDto);
+
+        return StatusCode(201);
     }
 }
