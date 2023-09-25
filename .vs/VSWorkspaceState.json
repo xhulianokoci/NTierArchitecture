@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\NTierTemplate.Presantation",
+    "\\NTierTemplate.Presantation\\Resources",
+    "\\NTierTemplate.Presantation\\Resources\\Controllers",
+    "\\Service"
+  ],
+  "SelectedNode": "\\Service\\AuthenticationService.cs",
+  "PreviewInSolutionExplorer": false
+}

@@ -1,0 +1,17 @@
+C:\Users\use\source\repos\NTierTemplate\LoggerService\bin\Debug\net6.0\LoggerService.deps.json
+C:\Users\use\source\repos\NTierTemplate\LoggerService\bin\Debug\net6.0\LoggerService.dll
+C:\Users\use\source\repos\NTierTemplate\LoggerService\bin\Debug\net6.0\LoggerService.pdb
+C:\Users\use\source\repos\NTierTemplate\LoggerService\bin\Debug\net6.0\Entities.dll
+C:\Users\use\source\repos\NTierTemplate\LoggerService\bin\Debug\net6.0\Repository.Contracts.dll
+C:\Users\use\source\repos\NTierTemplate\LoggerService\bin\Debug\net6.0\Repository.Contracts.pdb
+C:\Users\use\source\repos\NTierTemplate\LoggerService\bin\Debug\net6.0\Entities.pdb
+C:\Users\use\source\repos\NTierTemplate\LoggerService\obj\Debug\net6.0\LoggerService.csproj.AssemblyReference.cache
+C:\Users\use\source\repos\NTierTemplate\LoggerService\obj\Debug\net6.0\LoggerService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\use\source\repos\NTierTemplate\LoggerService\obj\Debug\net6.0\LoggerService.AssemblyInfoInputs.cache
+C:\Users\use\source\repos\NTierTemplate\LoggerService\obj\Debug\net6.0\LoggerService.AssemblyInfo.cs
+C:\Users\use\source\repos\NTierTemplate\LoggerService\obj\Debug\net6.0\LoggerService.csproj.CoreCompileInputs.cache
+C:\Users\use\source\repos\NTierTemplate\LoggerService\obj\Debug\net6.0\LoggerService.csproj.CopyComplete
+C:\Users\use\source\repos\NTierTemplate\LoggerService\obj\Debug\net6.0\LoggerService.dll
+C:\Users\use\source\repos\NTierTemplate\LoggerService\obj\Debug\net6.0\refint\LoggerService.dll
+C:\Users\use\source\repos\NTierTemplate\LoggerService\obj\Debug\net6.0\LoggerService.pdb
+C:\Users\use\source\repos\NTierTemplate\LoggerService\obj\Debug\net6.0\ref\LoggerService.dll
