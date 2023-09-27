@@ -128,6 +128,26 @@ public class AuthenticationService : IAuthenticationService
         return (result, tokenDto);
     }
 
+    public async Task<IdentityResult> ResetPassword(ResetPasswordDTO resetPasswordDto)
+    {
+        var user = await _userManager.FindByEmailAsync(resetPasswordDto.Email);
+        if (user is null)
+            throw new NotFoundException(string.Format("There is no user with this email: ", resetPasswordDto.Email));
+
+
+        if (resetPasswordDto.Password != resetPasswordDto.ConfirmPassword)
+            throw new BadRequestException("Password and Confirm Password doesnt match");
+
+        var resetPassword = await _userManager.ResetPasswordAsync(user, resetPasswordDto.Token, resetPasswordDto.Password);
+
+        if (!resetPassword.Succeeded)
+            throw new BadRequestException("Password didnt change!");
+
+        await _userManager.UpdateAsync(user);
+
+        return resetPassword;
+    }
+
     #region Private Methods
 
     private async Task<TokenDTO> CreateToken(ApplicationUser? currentUser, bool populateExp, bool rememberMe)

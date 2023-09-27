@@ -8,4 +8,5 @@ public interface IAuthenticationService
     Task<(IdentityResult, TokenDTO)> SignUp(CreateUserDTO signUp);
     Task<TokenDTO> ValidateUserAndCreateToken(UserLoginDTO userLogin);
     FirstTimeLoginDTO FirstTimeLoginResponse(UserLoginDTO userLogin);
+    Task<IdentityResult> ResetPassword(ResetPasswordDTO resetPasswordDto);
 }

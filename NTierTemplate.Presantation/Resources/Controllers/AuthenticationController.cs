@@ -24,6 +24,13 @@ public class AuthenticationController : ControllerBase
         return Ok(tokenDto);
     }
 
+    [HttpPost("reset-password")]
+    public async Task<IActionResult> ResetPssword([FromBody] ResetPasswordDTO resetPasswordDto)
+    {
+        await _service.AuthenticationService.ResetPassword(resetPasswordDto);
+        return Ok(new { Result = true });
+    }
+
     [HttpPost("sign-up")]
     public async Task<IActionResult> SignUp([FromBody] CreateUserDTO signUp)
     {
