@@ -52,3 +52,6 @@ The project is structured into multiple layers to ensure scalability, maintainab
 - **N-Tier Architecture**
 
 ---
+
+
+This README highlights the use of **N-Tier Architecture** and organizes the information to be recruiter-friendly. Let me know if you’d like to customize any section further!
